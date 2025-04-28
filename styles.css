@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    top:0;
+    width: 100%; 
+    background-color:rgb(120, 137, 224); 
+    justify-content: space-between; 
+    position: fixed;
+    z-index: 1;
+    color:rgb(13, 10, 19);
+    padding: 10px;
+}
+
+nav a{
+    padding: 10px 25px; 
+    text-decoration: none;
+    color: white;
+}
+
+section.home{
+    background: url("BG1.png"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height : 600px;
+}
+
+section.about{
+    background-color: black; 
+    height: 600px;
+}
+
+section.product{ background: url("gb2.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 600px;
+} 
+
+section.contact{ 
+    background-color: black; 
+    height: 600px; 
+}
+
+footer {
+background-color: black;
+height:50px;
+}
+
+section{
+    height: 600px;
+    background:url("BG3.webp");
+    background-attachment: fixed;
+    padding-top:100px;
+}
+
+section.home div{ 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin:auto;
+    width:70%;
+    padding: 20px;
+} 
+
+section.home.welcome{
+    font-size: 30px;
+}
+
+section.home a{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px; 
+    text-decoration: none; 
+    box-shadow: 0px 0px 3px; 
+    border-radius: 20px;
+}
+
+section.about{
+    background-color: rgb(0, 0, 0);
+    height: 600px; 
+    padding-top: 100px;
+}
+
+section.about div{
+    color:rgb(12, 11, 11);
+    text-align: center; 
+    margin:auto; 
+    width:70%;
+}
+
+section.about img{ 
+    height: 200px; 
+}
